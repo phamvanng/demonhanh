@@ -1,0 +1,97 @@
+@media(min-width: 1024px){
+
+}
+@media(min-width:740px) and (max-width: 1023px){
+
+    #content .fastfood-item {
+        float:left;
+        width: calc(100%/3);
+        text-align: center;
+    }
+    #content .food-item {
+        float:left;
+        width: calc(100%/3);
+        text-align: center;
+    }
+    #content .drink-item {
+        float:left;
+        width: calc(100%/3);
+        text-align: center;
+    }
+    
+}
+@media(max-width: 740px){
+    
+    #header{
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #header .mobile-menu{
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #nav li{
+        text-decoration: none;
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav    a {
+        color: aliceblue;
+        padding: 5px 45px;
+    }
+    #content .fastfood-item {
+        float:left;
+        width: calc(100%/2);
+        text-align: center;
+    }
+    #content .food-item {
+        float:left;
+        width: calc(100%/2);
+        text-align: center;
+    }
+    #content .drink-item {
+        float:left;
+        width: calc(100%/2);
+        text-align: center;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-infor{
+        width: 100%;
+    }
+    
+}
+@media(max-width: 330px)
+{
+    #content .fastfood-item {
+        float:left;
+        width: 100%
+ 
+    }
+    #content .food-item {
+        float:left;
+        width: 100%
+     
+    }
+    #content .drink-item {
+        float:left;
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-infor{
+        width: 100%;
+    }
+}
