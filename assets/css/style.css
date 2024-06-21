@@ -10,17 +10,7 @@ html
 {
     font-family: Arial, Helvetica, sans-serif;
 }
-/*
-Những thứ cần xác định khi lập trình web
-1. Kích thước
-2. Vị trí
-3. Màu sắc
-4. Kiểu dáng (Kiểu chữ, hình dạng)
-cách code
-1.Từ ngoài vào trong
-2.Từ trên xuống dưới
-3.Tổng quan đến chi tiết
-*/
+
 
 #header{
     position: fixed;
