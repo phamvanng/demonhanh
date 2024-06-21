@@ -112,6 +112,7 @@ html
 
 }
 
+/*
 @keyframes backgroundAnimation {
     0% {
       background: url('/assets/img/slider/slider4.png') center/cover no-repeat;
@@ -125,7 +126,7 @@ html
     100% {
       background: url('/assets/img/slider/slider6.jpeg') center/cover no-repeat;
     }
-}
+}*/
 #slider .text-content {
     position: absolute;
     bottom: 50px;
